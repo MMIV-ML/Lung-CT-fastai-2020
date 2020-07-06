@@ -37,7 +37,7 @@ conda env create --name envname --file=environment.yml
 python prepare_images.py <IMAGE_PATH>
 ``` 
 
-4. Go through the notebook: [1.0-classification.ipynb](https://github.com/skaliy/fastai_3D_medical_imaging/blob/master/research/lung_ct_todo/notebooks/1.0-classification.ipynb).
+4. Go through the notebook: [1.0-classification.ipynb](https://github.com/MMIV-ML/Lung-CT-fastai-2020/blob/master/notebooks/1.0-classification.ipynb).
 
 Acknowledgement
 -----------
