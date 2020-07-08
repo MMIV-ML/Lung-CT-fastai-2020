@@ -16,7 +16,7 @@ Project Organization
     │   
     ├── README.md          <- The top-level README for developers using this project
     │
-    └── environment.yml     <- Config for conda and pip  
+    └── environment.yml    <- Config for conda and pip  
 --------
 
 Steps to run the experiment 
