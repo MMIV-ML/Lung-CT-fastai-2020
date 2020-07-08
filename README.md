@@ -38,6 +38,7 @@ python prepare_images.py <IMAGE_PATH>
 ``` 
 
 4. Go through the notebook: [1.0-classification.ipynb](https://github.com/MMIV-ML/Lung-CT-fastai-2020/blob/master/notebooks/1.0-classification.ipynb).
+<br>
 <b>[Note]</b> If conda environment is not showing up in Jupyter Notebook:
 ```
 conda activate lung-ct 
