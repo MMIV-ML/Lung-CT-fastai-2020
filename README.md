@@ -25,11 +25,11 @@ Steps to run the experiment
 
 2. Run the following command with your conda environment activated: 
 ```
-conda env create -f environment.yml
+conda env update --file environment.yml
 ```
 <b>[Optional]</b> If you want to create a new conda environment from yml file run this instead: 
 ```
-conda env create --name envname --file=environment.yml
+conda env create --file environment.yml
 ```
 
 3. Run: 
@@ -38,6 +38,13 @@ python prepare_images.py <IMAGE_PATH>
 ``` 
 
 4. Go through the notebook: [1.0-classification.ipynb](https://github.com/MMIV-ML/Lung-CT-fastai-2020/blob/master/notebooks/1.0-classification.ipynb).
+<b>[Note]</b> If conda environment is not showing up in Jupyter Notebook:
+```
+conda activate lung-ct 
+conda install jupyter nb_conda nb_conda_kernels ipykernel
+python -m ipykernel install --user --name lung-ct --display-name "Python (lung-ct)"
+```
+ 
 
 Acknowledgement
 -----------
