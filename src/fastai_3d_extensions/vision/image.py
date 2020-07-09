@@ -20,7 +20,7 @@ def open_nii_image(fn):
         x = _nrrd[0]
     else: 
         load_data = LoadNifti(image_only=True)
-        x = load_data(fn) #nii file TODO aspect ratio
+        x = load_data(fn) 
         
     if x is None: raise TypeError    
     return fvision.Image(torch.Tensor(x[None]))
