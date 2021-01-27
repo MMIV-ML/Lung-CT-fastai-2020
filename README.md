@@ -1,8 +1,8 @@
 Pulmonary nodule classification in lung cancer from 3D thoracic CT scans 
 ==============================
-<img src="figures/preprocess.png"/>
+<img src="figures/pipeline.png"/>
 
-This code is written by <a href=https://alexander.lundervold.com/> Alexander Selvikvåg Lundervold </a> and <a href=https://skaliy.github.io/> Satheshkumar Kaliyugarasan </a>. 
+This code is written by <a href=https://alexander.lundervold.com/> Alexander Selvikvåg Lundervold </a> and <a href=https://skaliy.no/> Satheshkumar Kaliyugarasan </a>. 
 
 Project Organization
 --------
