@@ -90,12 +90,6 @@ save_object(DATA_DIR, 'path_to_raw_data.pkl')
 
 all_zips = list(DATA_DIR.glob('*.zip'))
 
-## Check that data is downloaded
-assert len(all_zips) == 31, (
-        f"At least some zip files seem to be missing in {DATA_DIR}." 
-        "Did you download all of them?")
-
-
 print(f"Unzipping files in {DATA_DIR}. This will take a while (unless already done)...")
 
 
