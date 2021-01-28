@@ -23,13 +23,14 @@ Steps to run the experiment
 ------------
 1. Download the processed LIDC_IDRI Version 2 data used in this project from: https://wiki.cancerimagingarchive.net/display/DOI/Standardized+representation+of+the+TCIA+LIDC-IDRI+annotations+using+DICOM
 
-2. Run the following command with your conda environment activated: 
-```
-conda env update --file environment.yml
-```
-<b>[Optional]</b> If you want to create a new conda environment from yml file run this instead: 
+2. Run the following command to create a new conda environment from yml file: 
 ```
 conda env create --file environment.yml
+conda activate lung-ct
+```
+<b>[Optional]</b> Run the following command with your conda environment activated: 
+```
+conda env update --file environment.yml
 ```
 
 3. Run: 
@@ -41,9 +42,8 @@ python prepare_images.py <IMAGE_PATH>
 
 <b>[Note]</b> If conda environment is not showing up in Jupyter Notebook run the following lines:
 ```
-conda activate lung-ct 
 conda install jupyter nb_conda nb_conda_kernels ipykernel
-python -m ipykernel install --user --name lung-ct --display-name "Python (lung-ct)"
+python -m ipykernel install --user --name <ENVIRONMENT> --display-name "Python (lung-ct)"
 ```
  
 
