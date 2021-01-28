@@ -42,7 +42,6 @@ python prepare_images.py <IMAGE_PATH>
 
 <b>[Note]</b> If conda environment is not showing up in Jupyter Notebook run the following lines:
 ```
-conda install jupyter nb_conda nb_conda_kernels ipykernel
 python -m ipykernel install --user --name <ENVIRONMENT> --display-name "Python (lung-ct)"
 ```
  
