@@ -1,3 +1,5 @@
+#### <b>[Update November 2022]</b> This source code has been updated to work with current version of [fastMONAI](https://github.com/MMIV-ML/fastMONAI) 
+
 Pulmonary nodule classification in lung cancer from 3D thoracic CT scans 
 ==============================
 <img src="figures/pipeline.png"/>
